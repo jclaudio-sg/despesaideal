@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppDespesaIdeal</string>
+    <string name="mensagem_despesa_total_anual">Despesa Total Anual</string>
+    <string name="descricao_imagem_icone_esquerda">Imagem para esquerda</string>
+    <string name="descricao_imagem_icone_direita">Imagem para direita</string>
+</resources>

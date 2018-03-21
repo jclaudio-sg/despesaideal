@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBranco2">#f4f2f2</color>
+    <color name="colorCinza2">#F0EEEE</color>
+
+    <color name="colorCinzaClaro">#F0EEEE</color>
+    <color name="colorCinzaClaro2">#DEE9EF</color>
+    <color name="colorCinzaClaro3">#CFCFCF</color>
+    <color name="colorCinzaClaro4">#B5B5B5</color>
+    <color name="colorCinzaClaro5">#455a64</color>
+
+    <color name="colorBrancoGelo">#FBF9F9</color>
+
+    <color name="colorAlimentacao">#ec407a</color>
+    <color name="colorTransporte">#9575cd</color>
+    <color name="colorMercado">#4dd0e1</color>
+    <color name="colorContas">#4db6ac</color>
+    <color name="colorEducacao">#fbc02d</color>
+    <color name="colorLazer">#ff9800</color>
+    <color name="colorSaude">#ff5722</color>
+    <color name="colorMoradia">#607d8b</color>
+    <color name="colorOutros">#ff616f</color>
+</resources>

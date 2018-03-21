@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    tools:context="br.ideal.appdespesaideal.ResumoGeralActivity">
+
+    <include layout="@layout/appbar_resumo_geral"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="110dp"
+        android:elevation="4dp"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/imagebutton_icone_esquerdo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/descricao_imagem_icone_direita"
+            android:src="@mipmap/ic_seta_esquerda_branco"/>
+
+        <TextView
+            android:id="@+id/textview_ano"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_icone_direito"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/descricao_imagem_icone_esquerda"
+            android:src="@mipmap/ic_seta_direita_branco"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_conteudo"
+        layout="@layout/conteudo_resumo_geral" />
+
+</android.support.design.widget.CoordinatorLayout>
